@@ -18,8 +18,8 @@ object MovieRatings extends InitSpark {
     //println(f"Sum 1 to 100 = $sumHundred")
 
     //val sourceFile = "hdfs://sandbox.hortonworks.com:8020/user/maria_dev/ratings.csv"
-    //val sourceFile = "ratings.csv"
-    val sourceFile = "/Users/jason/Downloads/ml-latest-small/ratings.csv"
+    val sourceFile = "ratings.csv"
+    //val sourceFile = "/Users/sakethoney/Downloads/ml-latest-small/ratings.csv"
 
     println("Reading from csv file: " + sourceFile)
     //val ratings: Dataset[Rating] = reader.csv(sourceFile).as[Rating]
